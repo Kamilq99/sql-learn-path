@@ -1,0 +1,3 @@
+USE TEST;
+
+SELECT * FROM Users WHERE AGE < 30;
