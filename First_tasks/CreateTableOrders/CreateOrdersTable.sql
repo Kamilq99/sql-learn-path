@@ -1,0 +1,9 @@
+USE TEST;
+
+CREATE TABLE ORDERS(
+    OrderID INT IDENTITY(1,1) PRIMARY KEY,
+    UserID INT,
+    OrderDate DATETIME,
+    TotalAmount DECIMAL(10,2),
+    FOREIGN KEY(UserID) REFERENCES Users(ID)
+);
