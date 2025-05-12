@@ -1,0 +1,20 @@
+USE BaseTOBACKUP;
+
+INSERT INTO CLIENTS(FIRST_NAME, LAST_NAME, AGE) VALUES
+('Jane', 'Doe', 25),
+('Bob', 'Doe', 28),
+('Alice', 'Smith', 30);
+
+GO
+
+USE BaseTOBACKUP;
+
+INSERT INTO CLIENTS(FIRST_NAME, LAST_NAME, AGE) VALUES
+('Charlie', 'Doe', 32),
+('David', 'Doe', 35);
+
+GO
+
+USE BaseTOBACKUP;
+
+SELECT * FROM CLIENTS;
