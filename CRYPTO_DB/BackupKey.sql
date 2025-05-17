@@ -1,0 +1,12 @@
+USE master;
+
+GO
+
+BACKUP CERTIFICATE TDE_CERT
+TO FILE = 'E:\Microsoft SQL Backups\CERT_KEY\TDE_CERT.cer'
+WITH PRIVATE KEY (
+    FILE = 'E:\Microsoft SQL Backups\CERT_KEY\TDE_CERT.pvk',
+    ENCRYPTION BY PASSWORD = '<PASSWORD>'
+    );
+
+GO
