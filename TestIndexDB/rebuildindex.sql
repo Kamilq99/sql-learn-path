@@ -1,0 +1,4 @@
+ALTER INDEX ALL
+ON dbo.Pracownicy
+REBUILD;
+GO
