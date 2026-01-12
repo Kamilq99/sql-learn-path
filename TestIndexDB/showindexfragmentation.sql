@@ -8,3 +8,4 @@ JOIN sys.indexes i
    AND ips.index_id = i.index_id
 WHERE i.name IS NOT NULL
 ORDER BY ips.avg_fragmentation_in_percent DESC;
+	
